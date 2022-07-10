@@ -124,6 +124,5 @@ class TransacoesController extends Controller
         $transacao = new TransacoesService();
         $resultado = $transacao->pagamentoPix($dados);
         return response()->json($resultado);
-
     }
 }
